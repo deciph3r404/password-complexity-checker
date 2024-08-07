@@ -1,0 +1,59 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Checker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="group">
+        <h1 id="top"></h1>
+        <h1>Password Strength Checker</h1>
+        <label for="">Password</label>
+        <input type="text" id="password" placeholder="Type your password here" />
+        <label for="">
+            Strength of password
+        </label>
+        <div class="power-container">
+            <div id="power-point"></div>
+        </div>
+        <ul class="list-unstyled">
+            <li class="low-upper-case">
+                <span>
+                    <i class="fas fa-circle" aria-hidden="true"></i>
+                    &nbsp;Lowercase &amp; Uppercase
+                </span>
+            </li>
+            <li class="one-number">
+                <span>
+                    <i class="fas fa-circle" aria-hidden="true"></i>
+                    &nbsp;Number (0-9)
+                </span>
+            </li>
+            <li class="one-special-char">
+                <span>
+                    <i class="fas fa-circle" aria-hidden="true"></i>
+                    &nbsp;Special Character (!@#$%^&*)
+                </span>
+            </li>
+            <li class="eight-character">
+                <span>
+                    <i class="fas fa-circle" aria-hidden="true"></i>
+                    &nbsp;Atleast 8 Character
+                </span>
+            </li>
+        </ul>
+    </div>
+    <footer>
+    <p>Designed & Developed by <a href="https://www.decipher404.com"target="_" >decipher404</a></p>
+</footer>
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
